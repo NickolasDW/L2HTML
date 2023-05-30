@@ -1,0 +1,194 @@
+/* .button { */
+    /* margin: 5px 40px; */
+    /* display: flex; */
+    /* background-image: url('https://thumbs.dreamstime.com/b/steel-metal-plate-rivets-single-85213657.jpg');
+    background-size: cover; */
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* width: 50%; */
+    /* height: 80%; */
+    /* float: left; */
+    /* padding: 30px; */
+/* } */
+
+a {
+    text-decoration: none;
+}
+
+.spanbutton {
+    border: black 3px solid;
+    background-image: url('../images/steel-metal-plate-rivets-single-85213657.jpg');
+    width: 300px;
+    height: 70px;
+    margin-left: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    color:black;
+    /* opacity: 1; */
+    margin-top: 15px;
+}
+
+/* .spanbutton:hover{
+    color: aliceblue;
+} */
+
+.spanbutton:hover{
+    -webkit-transform: scale(1.2) rotateZ(-5deg);
+    -ms-transform: scale(1.2) rotateZ(-5deg);
+    transform: scale(1.2) rotateZ(-5deg);
+    /* -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg); */
+}
+
+.spanbutton p {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+/* .divembelish {
+    border:rgb(0, 0, 0) 3px solid;
+    background-color: red;
+    height: 20vh;
+    width: 20vw;
+} */
+
+.navbar {
+    border: black 3px solid;
+    background-image: url('../images/istockphoto-510611254-612x612.jpg');
+    text-align: center;
+    display: flex;
+    height: 105px;
+    margin: auto;
+    width: 50%;
+    /* padding: 10px; */
+    background-color: rgb(221, 184, 136);
+    margin-bottom: 20px;
+    opacity: 0.95;
+}
+
+body {
+    background-image: url('../images/169383.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    font-style:normal;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+/* .div_background {
+    background: url('../images/360_F_366101427_8yazUJK82fDrLi4YtpnQO3DJ4dTygxoe.jpg'); */
+    /* background-size: cover;
+    object-fit: contain;
+    height: 100px; */
+/* } */
+
+#divpreset {
+    border: black 5px solid;
+    text-align: center;
+    height: 250px;
+    width: 800px;
+    background-color: rgb(221, 184, 136);
+    opacity: 0.95;
+    border-radius: 50px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#second-div {
+    margin-top: 40px;
+    border: black 5px solid;
+    text-align: center;
+    height: 100px;
+    width: 800px;
+    background-color: rgb(221, 184, 136);
+    opacity: 0.95;
+}
+
+#third-div {
+    margin-top: 40px;
+    border: black 5px solid;
+    text-align: center;
+    height: 200px;
+    width: 800px;
+    background-color: rgb(221, 184, 136);
+    margin-bottom: 40px;
+    opacity: 0.95;
+}
+
+#divpreset4 {
+    margin-top: 40px;
+    border: black 5px solid;
+    text-align: center;
+    height: 150px;
+    width: 800px;
+    background-color: rgb(221, 184, 136);
+    margin-bottom: 40px;
+    opacity: 0.95;
+}
+
+#divpreset5 {
+    margin-top: 40px;
+    border: black 5px solid;
+    text-align: center;
+    height: 375px;
+    width: 800px;
+    background-color: rgb(221, 184, 136);
+    margin-bottom: 40px;
+    opacity: 0.95;
+}
+
+.pictures {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    /* font-style: italic;
+    text-decoration: underline; */
+    font-style:normal;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 40px;
+    color:rgb(172, 116, 42);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.font-small {
+    font-size: 10px;
+}
+
+.color-red {
+    color: rgb(110, 46, 17);
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* img {
+    width: 150px;
+    height: 50px;
+} */
